@@ -14,4 +14,13 @@
 
 1. 同时现学现用一下ssh
 
-# 
+# 详细步骤
+
+## realsense相关配置
+~~1. 像使用pyrealsense一样在cpp下使用realsense我们也需要相应的库这里使用的是[librealsense](https://github.com/IntelRealSense/librealsense/)~~
+
+1. 并非如此!!!如果你有ros那麽一切都好办了，你只需要用下面的两条指令就能够安装librealsense。（下次在安装驱动时记得看看有没有ros特供版!!!）
+```bash
+sudo apt-get install ros-noetic-realsense2-camera
+sudo apt-get install ros-noetic-realsense2-description
+```
